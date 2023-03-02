@@ -1,0 +1,31 @@
+- question: "What is the name of Justin Bieber's 2020 album?"
+  options:
+    - "Changes"
+    - "Purpose"
+    - "Justice"
+    - "Believe"
+  answer: "Justice"
+
+- question: "Which artist won Album of the Year at the 2021 Grammy Awards?"
+  options:
+    - "Dua Lipa"
+    - "Beyoncé"
+    - "Taylor Swift"
+    - "Billie Eilish"
+  answer: "Taylor Swift"
+
+- question: "What is the title of Olivia Rodrigo's debut album released in 2021?"
+  options:
+    - "Sour"
+    - "Drivers License"
+    - "Good 4 U"
+    - "Deja Vu"
+  answer: "Sour"
+
+- question: "What is the name of the popular K-pop group that released the hit single 'Butter' in 2021?"
+  options:
+    - "BTS"
+    - "Blackpink"
+    - "TWICE"
+    - "EXO"
+  answer: "BTS"

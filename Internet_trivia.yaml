@@ -1,0 +1,134 @@
+- question: What does HTTP stand for?
+  options:
+    - HyperText Transmission Protocol
+    - HyperText Transfer Policy
+    - HyperText Transfer Protocol
+    - HyperText Translation Protocol
+  answer: HyperText Transfer Protocol
+
+- question: What is the most widely used web browser in the world?
+  options:
+    - Google Chrome
+    - Safari
+    - Mozilla Firefox
+    - Internet Explorer/Edge
+  answer: Google Chrome
+
+- question: What year was the World Wide Web invented?
+  options:
+    - 1989
+    - 1991
+    - 1993
+    - 1995
+  answer: 1991
+
+- question: What is the name of the protocol that allows for secure communication over the internet?
+  options:
+    - HTTPS
+    - FTP
+    - SMTP
+    - POP3
+  answer: HTTPS
+
+- question: What is the name of the protocol used to send and receive email?
+  options:
+    - FTP
+    - SMTP
+    - HTTP
+    - SSH
+  answer: SMTP
+
+- question: What does the acronym "DNS" stand for?
+  options:
+    - Domain Name System
+    - Data Network Services
+    - Digital Network System
+    - Domain Name Server
+  answer: Domain Name System
+
+- question: What is the name of the first search engine ever created?
+  options:
+    - Yahoo
+    - Google
+    - Archie
+    - Lycos
+  answer: Archie
+
+- question: What is the name of the first web browser ever created?
+  options:
+    - Internet Explorer
+    - Mosaic
+    - Netscape Navigator
+    - Safari
+  answer: Mosaic
+
+- question: What is the name of the computer that serves as the backbone of the internet?
+  options:
+    - Google
+    - Amazon
+    - Facebook
+    - IBM
+  answer: IBM
+
+- question: What is the name of the computer language used to create web pages?
+  options:
+    - HTML
+    - CSS
+    - JavaScript
+    - Python
+  answer: HTML
+
+- question: What is the name of the system used to organize and find information on the web?
+  options:
+    - FTP
+    - HTTP
+    - HTML
+    - URL
+  answer: URL
+
+- question: What is the name of the social networking site founded by Mark Zuckerberg in 2004?
+  options:
+    - LinkedIn
+    - Facebook
+    - Twitter
+    - Instagram
+  answer: Facebook
+
+- question: What is the name of the first popular webmail service?
+  options:
+    - Gmail
+    - Yahoo Mail
+    - Hotmail
+    - AOL Mail
+  answer: Hotmail
+
+- question: What is the name of the technology that allows for real-time communication over the internet?
+  options:
+    - VoIP
+    - FTP
+    - IRC
+    - SSH
+  answer: VoIP
+
+- question: What is the name of the first online shopping site?
+  options:
+    - eBay
+    - Amazon
+    - Craigslist
+    - Rakuten
+  answer: Amazon
+
+- question: What does the acronym "URL" stand for?
+  options:
+    - Universal Resource Language
+    - Universal Routing Language
+    - Uniform Resource Locator
+    - Unified Resource Language
+  answer: Uniform Resource Locator
+
+- question: What is the name of the system used to create and manage databases on the web?
+  options:
+    - SQL
+    - MySQL
+    - Oracle
+   

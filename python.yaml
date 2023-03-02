@@ -1,0 +1,79 @@
+- question: "What is the keyword used to define a function in Python?"
+  options:
+    - "def"
+    - "function"
+    - "define"
+    - "fun"
+  answer: "def"
+
+- question: "Which data type is used to store a sequence of characters in Python?"
+  options:
+    - "int"
+    - "float"
+    - "str"
+    - "list"
+  answer: "str"
+
+- question: "Which loop is used to iterate over a sequence of elements in Python?"
+  options:
+    - "while"
+    - "for"
+    - "do-while"
+    - "repeat-until"
+  answer: "for"
+
+- question: "What is the output of this code: print(2 + 3 * 4)"
+  options:
+    - "20"
+    - "14"
+    - "15"
+    - "None of the above"
+  answer: "14"
+
+- question: "Which operator is used to perform exponentiation in Python?"
+  options:
+    - "+"
+    - "-"
+    - "*"
+    - "**"
+  answer: "**"
+
+- question: "Which keyword is used to exit a loop in Python?"
+  options:
+    - "continue"
+    - "break"
+    - "pass"
+    - "exit"
+  answer: "break"
+
+- question: "Which data structure is used to store a collection of key-value pairs in Python?"
+  options:
+    - "list"
+    - "tuple"
+    - "set"
+    - "dictionary"
+  answer: "dictionary"
+
+- question: "What is the output of this code: print('Hello, world!')[::-1]"
+  options:
+    - "'Hello, world!'"
+    - "'dlrow ,olleH'"
+    - "'!dlrow ,olleH'"
+    - "None of the above"
+  answer: "'!dlrow ,olleH'"
+
+- question: "Which keyword is used to define a variable in Python?"
+  options:
+    - "set"
+    - "var"
+    - "val"
+    - "None of the above"
+  answer: "None of the above"
+
+- question: "Which method is used to add an element to the end of a list in Python?"
+  options:
+    - "add()"
+    - "append()"
+    - "insert()"
+    - "extend()"
+  answer: "append()"

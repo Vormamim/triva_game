@@ -5,14 +5,14 @@ from openpyxl import Workbook
 import msvcrt
 
 # Load the questions from the YAML file
-with open('python.yaml') as file:
+with open('standardAlgorithms.yaml') as file:
     questions = yaml.load(file, Loader=yaml.FullLoader)
 
 # Shuffle the questions randomly
 random.shuffle(questions)
 
 # Select the first 20 questions
-questions = questions[:20]
+questions = questions[:10]
 
 # Create a new workbook and worksheet for the results
 workbook = Workbook()
@@ -43,21 +43,22 @@ for i, question in enumerate(questions):
         user_answer = '0' # this is the default value if the user doesn't enter the answer within 30 seconds
 
     # Check if the user's answer is correct
-    if user_answer == '0': # if the user doesn't enter the answer within 30 seconds
-        print("Time's up!")
+    if int(user_answer) < 1 or int(user_answer) > len(question['options']):
+        print("Invalid answer.")
         is_correct = 'No'
-    elif question['options'][int(user_answer)-1] == question['answer']: # if the user enters the answer within 30 seconds and it's correct
-        print("Correct!")
-        is_correct = 'Yes'
     else:
-        print(f"Incorrect. The correct answer is {question['answer']}.")
-        is_correct = 'No'
+        if question['options'][int(user_answer)-1] == question['answer']:
+            print("Correct!")
+            is_correct = 'Yes'
+        else:
+            print(f"Incorrect. The correct answer is {question['answer']}.")
+            is_correct = 'No'
 
     # Write the question number, user's answer, and correct answer to the worksheet
-    worksheet.append([question['question'], question['options'][int(user_answer)-1], question['answer']])
-
-    # Add a column for whether the user's answer is correct
-    worksheet.cell(row=i+2, column=4, value=is_correct) # the reason why we are using i+2 is because we have a header row and index starts at 0 so we need to add 2
+        if user_answer.isdigit() and int(user_answer) in range(1, len(question['options'])+1):
+            worksheet.append([question['question'], question['options'][int(user_answer)-1], question['answer']])
+        else:
+            worksheet.append([question['question'], 'Invalid answer', question['answer']])
 
 # Save the workbook to an XLSX file
 workbook.save('python_results.xlsx')

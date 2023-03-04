@@ -1,0 +1,69 @@
+- question: What is a sequential file?
+  options:
+    - Sequential file is a file that stores data in a sequential manner.
+    - Sequential file is a file that stores data in a random manner.
+    - Sequential file is a file that stores data in a hierarchical manner.
+  answer: Sequential file is a file that stores data in a sequential manner.
+
+- question: What is the difference between a sequential file and a relative file?
+  options:
+    - Sequential files store data in a sequential manner, while relative files store data in a random manner.
+    - Sequential files are faster than relative files, while relative files are slower but more flexible.
+    - Sequential files can only be read from beginning to end, while relative files can be read from any point.
+  answer: Sequential files can only be read from beginning to end, while relative files can be read from any point.
+
+- question: What is the standard algorithm for searching an unsorted array?
+  options:
+    - Binary search
+    - Linear search
+    - Selection sort
+  answer: Linear search
+
+- question: What is the standard algorithm for sorting an array?
+  options:
+    - Bubble sort
+    - Selection sort
+    - Insertion sort
+  answer: Selection sort
+
+- question: What is the standard algorithm for merging two sorted arrays?
+  options:
+    - Quick sort
+    - Merge sort
+    - Heap sort
+  answer: Merge sort
+
+- question: What is the standard algorithm for inserting an item into a sorted array?
+  options:
+    - Insertion sort
+    - Quick sort
+    - Binary search
+  answer: Insertion sort
+
+- question: What is the standard algorithm for deleting an item from a sorted array?
+  options:
+    - Quick sort
+    - Binary search
+    - Deletion sort
+  answer: Deletion sort
+
+- question: What is the standard algorithm for creating a sequential file?
+  options:
+    - READ and WRITE
+    - OPEN and READ
+    - OPEN and WRITE
+  answer: OPEN and WRITE
+
+- question: What is the standard algorithm for appending to a sequential file?
+  options:
+    - READ and WRITE
+    - OPEN and READ
+    - OPEN and WRITE
+  answer: OPEN and WRITE
+
+- question: What is the standard algorithm for validating user input for a specific range of values?
+  options:
+    - WHILE loop
+    - REPEAT UNTIL loop
+    - IF statement
+  answer: WHILE loop
